@@ -4,7 +4,7 @@ Esta API está contenedorizada y permite hacer requests al endpoint "/predict" m
 
 El payload del post debe seguir el siguiente formato:
 
-´´´json
+```json
 {
   "province": "string",
   "lat": 0.0,
@@ -19,4 +19,4 @@ El payload del post debe seguir el siguiente formato:
   "condition": "string",
   "age": 0.0
 }
-´´´
+```
